@@ -2,9 +2,9 @@
 
 int main() {
     int a,b;
-    scanf("%d/t",&a);
+    scanf("%d\t",&a);
     scanf("%d",&b);
-    int True=a>b;
-    printf("%d",True);
+    int B=a>b;
+    printf("%d",B);
     return 0;
 }
