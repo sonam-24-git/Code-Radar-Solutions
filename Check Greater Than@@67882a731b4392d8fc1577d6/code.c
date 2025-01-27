@@ -4,9 +4,10 @@ int main() {
     int a,b;
     scanf("%d\t",&a);
     scanf("%d",&b);
-    int B=a>b;
-    char C=B;
-    printf("%d",B);
-    printf("True",C)
+    if (a>b){
+        printf("True\n");
+    } else {
+        printf("False");
+    }
     return 0;
 }
