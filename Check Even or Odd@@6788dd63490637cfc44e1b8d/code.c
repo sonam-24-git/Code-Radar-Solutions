@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     if (a%2==0){
         print("Even");
-    } else {print("Odd")
+    } else {print("Odd");
 }
     return 0;
     
