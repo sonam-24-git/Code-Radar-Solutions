@@ -2,7 +2,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (a%2==0){
+    int even=a%2
+    if (even == 0){
         print("Even");
     } else {print("Odd");
     }
