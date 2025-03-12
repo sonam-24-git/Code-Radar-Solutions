@@ -7,5 +7,14 @@ int main(){
     int add,sub,mul,div;
     if(add=c){
         printf("%d",a+b);
+    }else if(sub=c){
+        printf("%d",a-b);
+    }else if(mul=c){
+        printf("%d",a*b);
+    }else if(div=c){
+        printf("%d",a/b);
+    }else{
+        printf("Error");
     }
+    return 0;
 }
