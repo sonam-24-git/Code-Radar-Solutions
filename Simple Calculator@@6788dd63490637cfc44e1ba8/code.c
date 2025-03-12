@@ -5,21 +5,15 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&c);
-    switch(c){
-        case '+':
-        add=a+b;
-        printf("%d",add);
-        break;
-        case '-':
-        printf("%d",a-b);
-        break;
-        case '*':
-        printf("%d",a*b);
-        break;
-        case '/':
-        printf("%d",a/b);
-        break;
-        default:
+    if(c=='+'){
+        printf("%d",add);}
+    else if(c=='-'){
+        printf("%d",a-b);}
+    else if(c=='*'){
+        printf("%d",a*b);}
+    else if(c=='/'){
+        printf("%d",a/b);}
+    else{
         printf("Error");
     }
     return 0;
