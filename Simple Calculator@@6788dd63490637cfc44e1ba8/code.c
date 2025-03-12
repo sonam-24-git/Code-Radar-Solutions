@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&b);
     scanf("%d",&c);
     int add,sub,mul,div;
-    if(add=+){
+    if(add=c){
         printf("%d",a+b);
     }
 }
