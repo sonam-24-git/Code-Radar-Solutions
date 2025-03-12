@@ -7,7 +7,7 @@ int main(){
     switch(c){
         case '+':
         add=a+b;
-        printf("%d",sum);
+        printf("%d",add);
         break;
         case '-':
         printf("%d",a-b);
