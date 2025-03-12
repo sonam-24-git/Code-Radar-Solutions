@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
-    int a,b,c,add,sub,div,mul;
+    int a,b,add;
+    char c;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&c);
     switch(c){
-        case 1:
+        case '+':
         add=a+b;
         printf("%d",add);
         break;
