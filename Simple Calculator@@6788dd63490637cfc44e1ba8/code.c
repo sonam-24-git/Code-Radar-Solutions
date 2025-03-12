@@ -3,17 +3,22 @@ int main(){
     int a,b,c;
     scanf("%d",&a);
     scanf("%d",&b);
-    scanf("%d",&c);
-    int add,sub,mul,div;
-    if(add=c){
+    scanf("%c",&c);
+    switch(c){
+        case '+':
         printf("%d",a+b);
-    }else if(sub=c){
+        break;
+        case '-':
         printf("%d",a-b);
-    }else if(mul=c){
+        break;
+        case '*':
         printf("%d",a*b);
-    }else if(div=c){
+        break;
+        case '/':
         printf("%d",a/b);
-    
+        break;
+        default:
+        printf("Error")
     }
     return 0;
 }
