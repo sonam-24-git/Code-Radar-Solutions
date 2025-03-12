@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a,b,result;
-    char c[2];
+    int a,b,c,sum,sub,div,mul;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&c);
     switch(c){
         case '+':
-        result=a+b;
+        add=a+b;
+        printf("%d",sum);
         break;
         case '-':
         printf("%d",a-b);
