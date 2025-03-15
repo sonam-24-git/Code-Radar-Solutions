@@ -3,15 +3,16 @@ int main(){
     int N;
     scanf("%d", &N);
     for(int i=1; i<=N; i++){
-        for(int j=1; j<=N; j++){
-            if(j=1){
-                printf(" ");
-            }else{
-                printf("*");
-            }
+        /* Print spaces in decreasing order of row */
+        for(j=i; j<rows; j++)
+        { printf(" ");
+        }
+        /* Print star in increasing order or row */
+        for(j=1; j<=i; j++)
+        {
+            printf("*");
         }
         printf("\n");
     }
-
     return 0;
 }
