@@ -4,7 +4,7 @@ int main(){
     scanf("%d", &N);
     for(int i=1; i<=N; i++){
         /* Print spaces in decreasing order of row */
-        for(j=i; j<rows; j++)
+        for(j=i; j<N; j++)
         { printf(" ");
         }
         /* Print star in increasing order or row */
