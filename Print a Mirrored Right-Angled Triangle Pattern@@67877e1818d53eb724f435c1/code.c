@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int N;
+    int N,j;
     scanf("%d", &N);
     for(int i=1; i<=N; i++){
         /* Print spaces in decreasing order of row */
