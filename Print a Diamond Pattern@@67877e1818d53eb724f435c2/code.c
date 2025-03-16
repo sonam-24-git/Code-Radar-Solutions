@@ -18,7 +18,7 @@ int main(){
 
         // Second inner loop to print stars *
         for (int k = 0; k < 2 * n - comp; k++) {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
