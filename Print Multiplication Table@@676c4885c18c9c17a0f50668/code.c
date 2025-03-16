@@ -3,7 +3,7 @@ int main(){
     int n,mul,i;
     scanf("%d",&n);
     for(i=1;i<=10;i++){
-        mul=n×i;
+        mul=nxi;
         printf("%d * %d = %d\n",n,i,mul);}
     return 0;
 }
