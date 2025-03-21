@@ -14,11 +14,11 @@ int main(){
 
         // First inner loop to print leading whitespaces
         for (int j = 0; j < comp; j++)
-            printf("");
+            printf(" ");
 
         // Second inner loop to print stars *
         for (int k = 0; k < 2 * n - comp; k++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
